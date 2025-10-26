@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello, world from FastAPI + Harness + EKS!"}
+    return {"message": "Hello, world from FastAPI + Harness + EKS!-AutoTrigger-Test1"}
 
 @app.get("/db-check")
 async def db_check():
